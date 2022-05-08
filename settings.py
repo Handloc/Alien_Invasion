@@ -4,4 +4,8 @@ class Settings:
         self.screen_height = 800
         self.bg_color = (38, 38, 38)
         self.ship_speed_factor = 0.85
-
+        self.bullet_speed_factor = 0.5
+        self.bullet_width = 3
+        self.bullet_height = 15
+        self.bullet_color = 0, 255, 68
+        self.bullets_allowed = 3
